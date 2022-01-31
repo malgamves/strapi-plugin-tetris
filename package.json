@@ -1,0 +1,40 @@
+{
+  "name": "strapi-plugin-tetris",
+  "version": "0.1.0",
+  "description": "Play the popular game, Tetris inside your Strapi Admin... waiting for content changes? Tetris! Need a break? Tetris!",
+  "keywords": [
+    "strapi",
+    "cms",
+    "strapi-plugin",
+    "game"
+  ],
+  "homepage": "https://github.com/malgamves/strapi-plugin-tetris",
+  "bugs": {
+    "url": "https://github.com/malgamves/strapi-plugin-tetris/issues"
+  },
+  "strapi": {
+    "name": "Strapi Tetris",
+    "description": "Don't let your boss find you playing games on the job.",
+    "kind": "plugin"
+  },
+  "dependencies": {
+    "react-tetris": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malgamves/strapi-plugin-tetris.git"
+  },
+  "author": {
+    "name": "malgamves"
+  },
+  "maintainers": [
+    {
+      "name": "malgamves"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x. <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

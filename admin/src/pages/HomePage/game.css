@@ -1,0 +1,31 @@
+.game-block {
+    margin: 0;
+    padding: 0;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #ddd;
+  }
+  .piece-i {
+    background-color: #1D1B84;
+  }
+  .piece-j {
+    background-color: #7E43E6;
+  }
+  .piece-l {
+    background-color: #11A865;
+  }
+  .piece-o {
+    background-color: #3C548A;
+  }
+  .piece-s {
+    background-color: #00A4B4;
+  }
+  .piece-t {
+    background-color: #DDA537;
+  }
+  .piece-z {
+    background-color: #F6B73E;
+  }
+  .piece-preview {
+    background-color: #5857A2;
+  }
