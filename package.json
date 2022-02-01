@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-tetris",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Play the popular game, Tetris inside your Strapi Admin... waiting for content changes? Tetris! Need a break? Tetris!",
   "keywords": [
     "strapi",
@@ -13,7 +13,8 @@
     "url": "https://github.com/malgamves/strapi-plugin-tetris/issues"
   },
   "strapi": {
-    "name": "Strapi Tetris",
+    "name": "strapi-tetris",
+    "displayName": "Strapi Tetris",
     "description": "Don't let your boss find you playing games on the job.",
     "kind": "plugin"
   },
