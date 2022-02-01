@@ -39,12 +39,17 @@ const HomePage = () => {
             <Box background="neutral100">
               <BaseHeaderLayout primaryAction={<Button startIcon={<Plus />}>View Leaderboard</Button>} title="Welcome to Tetris" subtitle={<p>Points: {points} | Lines Cleared: {linesCleared}</p>} as="h2" />
             </Box>
-            <Alert padding={3} closeLabel="Close alert" title="Instructions!" show={showInstModal} onClick={showInstModal}>
-              Use the left and right arrows on your keyboard to move the piece in those directions. Use the up arrow to rotate the piece and the down arrow to make it go down fast! Share your high score somewhere you can get validation lol, enjoy :p
-            </Alert>
-            <Box>
+            <Box paddingLeft={10} paddingRight={10}>
+            {showInstModal && 
+            <Alert closeLabel="handleInstModal" title="Instructions!" onClose={handleInstModal}>
+            Use the left and right arrows on your keyboard to move the piece in those directions. Use the up arrow to rotate the piece and the down arrow to make it go down fast! Share your high score somewhere you can get validation lol, enjoy :p
+          </Alert>
+          }
+          </Box>
+            
+            <Box paddingLeft={8}>
               <GridLayout>
-                <Box>
+                <Box paddingLeft={8}>
                   <Grid gap={5}>
                     <GridItem background="neutral100" padding={5} col={4} s={6} xs={12}>
                       <Gameboard />

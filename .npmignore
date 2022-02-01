@@ -1,0 +1,5 @@
+# Don't check auto-generated stuff into git
+node_modules
+
+# Don't add media files to package
+tetris.gif

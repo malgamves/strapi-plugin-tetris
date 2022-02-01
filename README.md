@@ -2,7 +2,7 @@
 
 Play the popular game, Tetris inside your Strapi Admin... waiting for content changes? Tetris! Need a break? Tetris!
 
-![image of intense tetris game in progress](/link-to-update)
+![image of intense tetris game in progress](/tetris.gif)
 
 ##### Installation
 
