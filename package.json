@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-tetris",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Play the popular game, Tetris inside your Strapi Admin... waiting for content changes? Tetris! Need a break? Tetris!",
   "keywords": [
     "strapi",
@@ -27,6 +27,9 @@
   },
   "author": {
     "name": "malgamves"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
   },
   "maintainers": [
     {
